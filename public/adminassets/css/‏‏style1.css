@@ -1,0 +1,181 @@
+
+
+/*-----------------
+	25. Responsive
+-----------------------*/
+
+@media only screen and (min-width:768px) {
+	.avatar-xxl {
+		width: 8rem;
+		height: 8rem;
+	}
+	.avatar-xxl .border {
+		border-width: 4px !important;
+	}
+	.avatar-xxl .rounded {
+		border-radius: 12px !important;
+	}
+	.avatar-xxl .avatar-title {
+		font-size: 42px;
+	}
+	.avatar-xxl.avatar-away:before,
+	.avatar-xxl.avatar-offline:before,
+	.avatar-xxl.avatar-online:before {
+		border-width: 4px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 767.98px) {
+	body {
+		font-size: 0.9375rem;
+	}
+	h1, .h1 {
+		font-size: 2rem;
+	}
+	h2, .h2 {
+		font-size: 1.75rem;
+	}
+	h3, .h3 {
+		font-size: 1.5rem;
+	}
+	h4, .h4 {
+		font-size: 1.125rem;
+	}
+	h5, .h5 {
+		font-size: 1rem;
+	}
+	h6, .h6 {
+		font-size: 0.875rem;
+	}
+
+	.top-action-left .float-left {
+		float: none !important;
+	}
+	.top-action-left .btn-group {
+		margin-bottom: 15px;
+	}
+	.top-action-right {
+		text-align: center;
+	}
+	.top-action-right a.btn.btn-white {
+		margin-bottom: 15px;
+	}
+	.mail-sent-time {
+		float: left;
+		margin-top: 10px;
+		width: 100%;
+	}
+	.profile-btn {
+		flex: 0 0 100%;
+		margin-top: 20px;
+	}
+	.chat-window .chat-cont-left .chat-users-list a.media .media-body > div:first-child .user-name,
+	.chat-window .chat-cont-left .chat-users-list a.media .media-body > div:first-child .user-last-chat {
+		max-width: 250px;
+	}
+	.app-dropdown {
+		display: none;
+	}
+	.edit-link {
+		font-size: 0.875rem;
+		margin-top: 0;
+	}
+	.product_price {
+		font-size: 1.5rem;
+	}
+	.login-wrapper .loginbox .login-right h1 {
+		font-size: 22px;
+	}
+	.error-box h1 {
+		font-size: 6em;
+	}
+	.error-box .btn {
+		font-size: 15px;
+		min-width: 150px;
+		padding: 8px 20px;
+	}
+	.dash-count {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 575.98px) {
+	.card {
+		margin-bottom: 0.9375rem;
+	}
+	.page-wrapper > .content {
+		padding: 0.9375rem 0.9375rem 0;
+	}
+	.chat-window {
+		margin-bottom: 0.9375rem;
+	}
+	.card-body {
+		padding: 1.25rem;
+	}
+	.card-footer {
+		padding: .75rem 1.25rem;
+	}
+	.card-chart .card-body {
+		padding: 5px;
+	}
+	.account-wrapper {
+		padding: 0.9375rem;
+	}
+	.pagination-lg .page-link {
+		font-size: 1.2rem;
+		padding: 0.5rem 0.625rem;
+	}
+	.profile-image {
+		flex: 0 0 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.profile-user-info {
+		text-align: center;
+	}
+	.profile-btn {
+		text-align: center;
+	}
+	.invoice-details, .invoice-payment-details > li span {
+		float: left;
+		text-align: left;
+	}
+	.fc-toolbar .fc-right {
+		display: inline-block;
+		float: none;
+		margin: 10px auto 0;
+		width: 200px;
+		clear: both;
+	}
+	.fc-toolbar .fc-left {
+		float: none;
+		margin: 0 auto;
+		width: 200px;
+	}
+	.fc-toolbar .fc-center {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+	.fc-toolbar .fc-center h2 {
+		width: 100%;
+	}
+	.profile-tab-cont {
+		padding-top: 1.25rem;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.add-btn {
+		font-size: 14px;
+		padding: 6px 7px;
+	}
+	.chat-window .chat-cont-left .chat-users-list a.media .media-body > div:first-child .user-name,
+	.chat-window .chat-cont-left .chat-users-list a.media .media-body > div:first-child .user-last-chat {
+		max-width: 160px;
+	}
+
+}
